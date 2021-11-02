@@ -1,0 +1,222 @@
+\documentclass[fontsize=12pt, paper=a4, headinclude, twoside=false, parskip=half+, pagesize=auto, numbers=noenddot, plainheadsepline, open=right, toc=listof, toc=bibliography]{scrreprt}
+% PDF-Kompression
+\pdfminorversion=5
+\pdfobjcompresslevel=1
+
+%Versuche
+\usepackage{wallpaper}
+
+
+
+% Allgemeines
+\usepackage[automark,plainfootsepline,headsepline]{scrlayer-scrpage} % Kopf- und Fußzeilen
+\usepackage{todonotes}
+\usepackage{color}
+\usepackage{ulem}
+
+
+%Versuch das Seitenlayout zu ändern
+\usepackage{layout}
+%\setlength{\hoffset}{18mm}
+%\setlength{\textwidth}{145mm}
+
+%\geometry{a4paper, total={210mm, 297mm}, left=30mm, right=20m, top=25mm, bottom=25mm}
+%\voffset=-5mm
+%\hoffset=18mm
+%\marginparwidth15mm
+%\textwidth145mm
+%\textheight300mm
+
+	
+\usepackage{amsmath,marvosym} % Mathesachen
+\usepackage{mathtools} % Mathesachen 
+\usepackage{amstext}
+\usepackage[T1]{fontenc} %Ligaturen, richtige Umlaute im PDF
+\usepackage[utf8]{inputenc} %UTF8-Kodierung für Umlaute usw
+
+%\usepackage[applemac]{inputenc} %Wenn Sie ein Mac-Nutzer sind, dann nutzen Sie dieses Paket um Umlaute für Mac korrekt wiederzugeben. Aber Sie müssen dann das UTF8 Paket deaktivieren.
+
+%\usepackage[latin1]{inputenc} %Falls Sie Linux verwende
+
+%Versuch
+\renewcommand*\familydefault{\sfdefault}
+%\usepackage{dejavu}
+\usepackage[scaled]{berasans}
+
+% Schriften
+\usepackage[printonlyused]{acronym} %Notwendig für Abkürzungsverzeichnis
+\usepackage{mathpazo} % Palatino für Mathemodus
+\usepackage{setspace} % Zeilenabstand
+\onehalfspacing % 1,5 Zeilen
+
+% Schriften-Größen
+\setkomafont{chapter}{\Large\sffamily} % Überschrift der Ebene
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-1mm}}
+\setkomafont{section}{\large\sffamily}
+\setkomafont{subsection}{\normalsize\sffamily}
+\setkomafont{subsubsection}{\normalsize\sffamily}
+\setkomafont{paragraph}{\normalsize\sffamily}
+\setkomafont{subparagraph}{\normalsize\sffamily}
+\setkomafont{chapterentry}{\normalsize\sffamily} % Überschrift der Ebene in Inhaltsverzeichnis
+\setkomafont{descriptionlabel}{\bfseries\sffamily} % für description Umgebungen
+\setkomafont{captionlabel}{\small\bfseries}
+\setkomafont{caption}{\small}
+
+\setkomafont{pageheadfoot}{\normalfont}
+
+%Versuch: Überschriften Abstände zu verkleinern
+\RedeclareSectionCommand[%
+  beforeskip=-0.2\baselineskip,
+  afterskip=0.2\baselineskip]{chapter}
+\RedeclareSectionCommand[%
+  beforeskip=-0.2\baselineskip,
+  afterskip=0.2\baselineskip]{section}
+\RedeclareSectionCommand[
+  beforeskip=-.2\baselineskip,
+  afterskip=.2\baselineskip]{subsection}
+\RedeclareSectionCommand[
+  beforeskip=-.15\baselineskip,
+  afterskip=.15\baselineskip]{subsubsection}
+\RedeclareSectionCommand[
+  beforeskip=.15\baselineskip,
+  afterskip=-1em]{paragraph}
+\RedeclareSectionCommand[
+  beforeskip=-.15\baselineskip,
+  afterskip=-1em]{subparagraph}
+
+% Sprache: Deutsch
+\usepackage[ngerman]{babel} % Silbentrennung
+% PDF
+\usepackage[ngerman,pdfauthor={Frederik Hendricks-Kühn},  pdfauthor={Frederik Hendricks-Kühn}, pdftitle={Seminararbeit}, breaklinks=true,baseurl={}]{hyperref}
+\usepackage[final]{microtype} % mikrotypographische Optimierungen
+\usepackage{url}
+\usepackage{pdflscape} % einzelne Seiten drehen können
+% Tabellen
+\usepackage{multirow} % Tabellen-Zellen über mehrere Zeilen
+\usepackage{multicol} % mehre Spalten auf eine Seite
+\usepackage{tabularx} % Für Tabellen mit vorgegeben Größen
+\usepackage{longtable} % Tabellen über mehrere Seiten
+\usepackage{booktabs} % schoenere Tabellen + abstaende
+\usepackage{array}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
+
+
+%Versuch die Schriftgröße in den Tabellen zu ändern
+\let\oldtabular\tabular 
+\renewcommand{\tabular}{\footnotesize\oldtabular}
+
+%  Bibliographie
+\usepackage{bibgerm} % Umlaute in BibTeX
+% Tabellen
+\usepackage{multirow} % Tabellen-Zellen über mehrere Zeilen
+\usepackage{multicol} % mehre Spalten auf eine Seite
+\usepackage{tabularx} % Für Tabellen mit vorgegeben Größen
+\usepackage{array}
+\usepackage{float}
+\usepackage{titling}
+\usepackage{enumitem} 
+% Bilder
+\usepackage{graphicx} % Bilder
+\usepackage{color} % Farben
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg} % bevorzuge pdf-Dateien
+\usepackage{subfig}
+\usepackage[subfigure, titles]{tocloft}
+\renewcommand{\cftchapdotsep}{\cftdotsep}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}
+\newcommand{\subfigureautorefname}{\figurename} % um \autoref auch für subfigures benutzen
+\usepackage[all]{hypcap} % Beim Klicken auf Links zum Bild und nicht zu Caption gehen
+% Bildunterschrift
+\setcapindent{0em} % kein Einrücken der Caption von Figures und Tabellen
+\setcapwidth[c]{0.9\textwidth}
+\setlength{\abovecaptionskip}{0.2cm} % Abstand der zwischen Bild- und Bildunterschrift
+% Quellcode
+\usepackage{listings} % für Formatierung in Quelltexten
+\definecolor{grau}{gray}{0.25}
+\lstset{
+	extendedchars=true,
+	basicstyle=\tiny\ttfamily,
+	%basicstyle=\footnotesize\ttfamily,
+	tabsize=2,
+	keywordstyle=\textbf,
+	commentstyle=\color{grau},
+	stringstyle=\textit,
+	numbers=left,
+	numberstyle=\tiny,
+	% für schönen Zeilenumbruch
+	breakautoindent  = true,
+	breakindent      = 2em,
+	breaklines       = true,
+	postbreak        = ,
+	prebreak         = \raisebox{-.8ex}[0ex][0ex]{\Righttorque},
+}
+% linksbündige Fußboten
+\deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
+
+\typearea{14} % typearea berechnet einen sinnvollen Satzspiegel (das heißt die Seitenränder) siehe auch http://www.ctan.org/pkg/typearea. Diese Berechnung befindet sich am Schluss, damit die Einstellungen oben berücksichtigt werden
+
+
+%Überschriftennummerierung
+\setcounter{secnumdepth}{3}
+%Tiefe des Inhaltsverzeichnisses
+\setcounter{tocdepth}{3}
+
+
+\hypersetup{% 
+  pdfborder= 0 0 0 
+}
+
+%lstset Formatierungen
+\lstset{
+  basicstyle=\fontsize{11}{13}\selectfont\ttfamily
+}
+
+%Formatierung von Abbildungs und Tabellenverzeichnis/caption
+\renewcommand{\cftfigpresnum}{Abb. }
+\renewcommand{\cfttabpresnum}{Tab. }
+
+\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cfttabaftersnum}{:}
+
+\setlength{\cftfignumwidth}{2cm}
+\setlength{\cfttabnumwidth}{2cm}
+
+\setlength{\cftfigindent}{0cm}
+\setlength{\cfttabindent}{0cm}
+
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcommand{\tablename}{Tab.}
+
+%Tabellenverzeichnis mit fortlaufenden Nummern aber immer noch nach Kapiteln gruppiert. 
+%\counterwithout{table}{chapter}
+
+%Natbib zum zitieren im Stil (Autor Jahr, Seite)
+\usepackage{natbib}
+%Wenn man die Havard Zitierweise benutzt:
+%\bibliographystyle{dcugerman}
+%\usepackage{har2nat}
+%\providecommand\harvardand{}
+%\renewcommand{\harvardand}{und}
+
+%Wenn man spbasic verwendet
+%\bibliographystyle{spbasic} %Im spbasic.bst Dokument sind die dt. Abkürzungen die im Literaturverzeichnis erstellt werden, möchte man die Arbeit auf Englisch schreiben müssen dort die Abkürzungen angepasst werden
+\bibliographystyle{extension}
+
+\setcitestyle{aysep={},yysep={;}}
+
+%Befehle für Multizitate
+\newcommand{\doublecite}[2]{(#1; #2)}
+\newcommand{\tripplecite}[3]{(#1; #2; #3)}
+\newcommand{\quadrocite}[4]{(#1; #2; #3; #4)}
+\newcommand{\quintcite}[5]{(#1; #2; #3; #4; #5)}
+
+% fortlaufende nummerierung der footnotes
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+
+% einruecken des textes pro abschnitt
+%\usepackage{parskip}
+%\setlength{\parindent}{4mm}

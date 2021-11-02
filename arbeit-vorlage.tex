@@ -1,0 +1,63 @@
+\input{einstellungen.tex} % Importiere die Einstellungen
+
+%Versuch das Seitenlayout zu ändern. Dieses muss aber nach der Titelseite wieder geändert werden. Darum gibt es den gleichen Befehl nochmal am Ende des Dokumentes der Titelseite
+\usepackage{geometry}
+%\setlength{\textwidth}{14.5cm}
+\setlength{\textheight}{24cm}
+\setlength{\hoffset}{9mm}
+%\setlength{\voffset}{-7mm}
+
+% hier beginnt der eigentliche Inhalt
+\begin{document}
+
+\pagenumbering{roman}
+%Titelseite
+%entsprechend Autor, Titel, Matrikelnummer, Email, Abgabetermin, Arbeitsart eintragen
+\author{Frederik Hendricks-Kühn}
+\newcommand{\adress}{Universitätsstr. 31}
+\newcommand{\postalcode}{44789 Bochum}
+\title{Transformation eines traditionellen Unternehmens in ein agiles Unternehmen mit besonderem Fokus auf die Struktur}
+\newcommand{\matrikel}{3080532}
+\newcommand{\email}{frederik.hendricks-kuehn@stud.uni-due.de}
+\newcommand{\termin}{06.02.2022}
+\newcommand{\studiengang}{Wirtschaftsinformatik B.Sc.}
+\newcommand{\arbeitstyp}{Bachelor-Seminar}
+\newcommand{\gutachter}{Sarah Seufert}
+\newcommand{\zweitgutachter}{}
+\newcommand{\aktuellessemester}{7}
+\newcommand{\fachsemester}{7}
+
+\include{tex/titelseite}
+\pagenumbering{Roman} % große Römische Seitenummerierung
+
+% normale Kopf- und Fußzeilen für den Rest
+\pagestyle{scrheadings}
+\clearscrheadings
+\automark[chapter]{chapter}
+\ohead*{\pagemark}
+\ihead{\headmark}
+
+
+
+\include{tex/00_Verzeichnisse}
+
+% Beginn des Inhalts
+\pagenumbering{arabic}
+\include{tex/01_einleitung}
+\include{tex/02_grundlagen}
+\include{tex/03_Methode}
+\include{tex/04_Ergebnisse}
+\include{tex/05_Fazit}
+\include{tex/06_anhang}
+\include{tex/07_erklaerung}
+
+%Literaturverzeichnis
+\bibliography{bibliographie}
+
+%Anhang
+\include{tex/anhang}
+
+%Eigenständigskeitserklärung
+\include{tex/erklaerung}
+
+\end{document}
