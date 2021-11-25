@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T18:40:48.960Z" agent="5.0 (Windows)" version="15.8.6" etag="TnWMH8CpfU1iBl9m3fyH" type="github"><diagram id="O4_yFGA6fB8NEN1g4t_4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-25T18:41:56.412Z" agent="5.0 (Windows)" etag="_ROvFTe_DVN38KYiNfSl" version="15.8.6" type="github">
+  <diagram id="O4_yFGA6fB8NEN1g4t_4" name="Page-1">
+    <mxGraphModel dx="1865" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e94hq9yqM84-VRwbTP0g-1" value="Arbeitsplätze die kollaboratives Arbeiten ermöglichen" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-2" value="dezentrale entscheidungen" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-3" value="Eigenverantwortung der Teams" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-4" value="Entscheidungen durch Mitarbeiter" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-5" value="finde die passenden Mitarbeiter" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-6" value="flache Hierarchien" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-7" value="Fokus auf Benutzer und Wert" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-8" value="Geschäftsprozesse werden bottom-up definiert" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-9" value="Homeoffice / Teleworking" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-10" value="Interdisziplinäre Teams" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-11" value="Interne Fachleute sind immer erreichbar" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-12" value="kollaboratives Arbeiten" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-13" value="Konstante Wiederholung der agilen Methoden" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-14" value="kontinuirliche Weiterentwicklung der eigenen Plattform" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-15" value="Management als Ermöglicher" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="850" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-16" value="Mitarbeiter werden zu eigenen Entscheidungen ermächtigt" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-17" value="motiverte Mitarbeiter" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-18" value="Test und Learn Enviroments" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-19" value="nachhaltiger Führungsstil" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-20" value="positive Arbeitshaltung" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="870" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-21" value="Top-Down beginnen um Silos aufzubrechen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="420" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-22" value="Skalierbar für größere Aufgaben" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-23" value="Symbole schaffen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-24" value="positive Fehlerkultur" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-25" value="Rückschläge nicht als Grund zur Aufgabe sehen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-26" value="Nutzen von neuen Technologien" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-27" value="Nutzen, Investieren, Schulung neue Tools -&gt; Langfristig" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-28" value="Teams sollen zusammen bleiben" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-29" value="Topmanagement muss Vorhaben unterstützen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-30" value="Topmanagement nicht mehr angewiesen auf Reports" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-31" value="Topmanagement versucht Mitarbeitermöglichkeiten zu optimieren" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-32" value="Transparenz fördern" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-33" value="verwende feste Definitionen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-70" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-34" value="Weiterbildungen und erweiterte Ausbildung der Mitarbeiter" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e94hq9yqM84-VRwbTP0g-35" value="Wissen teilen / Knowledge Base aufbauen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
