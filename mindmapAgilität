@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T11:27:26.416Z" agent="5.0 (Windows)" version="15.8.6" etag="vKx5oFjtWRnwXtgLN7gn" type="github"><diagram id="EKy-fqIegAHw1gXjOQYR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-27T11:35:23.029Z" agent="5.0 (Windows)" etag="0E2mDXJFe8yEICpwnt20" version="15.8.6" type="github">
+  <diagram id="EKy-fqIegAHw1gXjOQYR" name="Page-1">
+    <mxGraphModel dx="1442" dy="847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FzKZmiRSFCx_vyywdPu6-1" target="FzKZmiRSFCx_vyywdPu6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="FzKZmiRSFCx_vyywdPu6-1" target="FzKZmiRSFCx_vyywdPu6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-1" value="Agilität" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="258" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FzKZmiRSFCx_vyywdPu6-2" target="FzKZmiRSFCx_vyywdPu6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-2" value="Zunächst in der Softwareentwicklung&lt;br&gt;vgl. Scrum + Kanban" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403" y="108" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-4" value="geringeres Projektrisiko&lt;br&gt;relevante Anforderiungen werden früher deutlich&lt;br&gt;&lt;i&gt;Ettelbrück S.53&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="598" y="-18" width="257" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="FzKZmiRSFCx_vyywdPu6-6" target="FzKZmiRSFCx_vyywdPu6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-6" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&quot;Business Agilität&quot;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&quot;wettbewerbsfähig&quot;&lt;br style=&quot;font-size: 12px;&quot;&gt;schnelle Reaktion und neue Innovation&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;i style=&quot;font-size: 12px;&quot;&gt;Ettelbrück S.54&lt;/i&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="142" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FzKZmiRSFCx_vyywdPu6-10" value="integration aller Mitarbeiter&lt;br&gt;&lt;i&gt;Ettelbrück S.54&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="57" width="145" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
