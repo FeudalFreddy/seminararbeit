@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T17:21:32.213Z" agent="5.0 (Windows)" etag="hQY7nJTQaGz304XRZt96" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T18:19:55.599Z" agent="5.0 (Windows)" etag="pLdAmemBRo_mL7RlD2V0" version="15.8.6" type="github">
   <diagram id="O4_yFGA6fB8NEN1g4t_4" name="Page-1">
-    <mxGraphModel dx="1838" dy="1336" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1427" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-3" value="Eigenverantwortung der Teams" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" parent="1" vertex="1">
-          <mxGeometry x="20" y="-10" width="180" height="30" as="geometry" />
+          <mxGeometry x="-40" y="33" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-4" value="Entscheidungen durch Mitarbeiter" style="text;whiteSpace=wrap;html=1;opacity=50;align=left;" parent="1" vertex="1">
           <mxGeometry x="294" y="130" width="120" height="40" as="geometry" />
@@ -64,6 +64,9 @@
         <mxCell id="OGWz31QVVRvEfZczqKY--2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-12" target="e94hq9yqM84-VRwbTP0g-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="e94hq9yqM84-VRwbTP0g-12" target="YTj6ZiOPq32lD0ahbDQ3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-12" value="kollaboratives Arbeiten" style="text;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="234" y="-300" width="140" height="30" as="geometry" />
         </mxCell>
@@ -86,6 +89,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OGWz31QVVRvEfZczqKY--24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-15" target="e94hq9yqM84-VRwbTP0g-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="e94hq9yqM84-VRwbTP0g-15" target="YTj6ZiOPq32lD0ahbDQ3-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-15" value="Management als Ermöglicher" style="text;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
@@ -118,6 +124,11 @@
         <mxCell id="e94hq9yqM84-VRwbTP0g-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-18" target="e94hq9yqM84-VRwbTP0g-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="e94hq9yqM84-VRwbTP0g-18" target="YTj6ZiOPq32lD0ahbDQ3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-485" y="199.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-18" value="Test und Learn Enviroments" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-420" y="260" width="160" height="20" as="geometry" />
         </mxCell>
@@ -140,7 +151,7 @@
           <mxGeometry x="230" y="-480" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-24" value="positive Fehlerkultur" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-190" width="120" height="30" as="geometry" />
+          <mxGeometry x="68" y="-263" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OGWz31QVVRvEfZczqKY--25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-25" target="e94hq9yqM84-VRwbTP0g-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -173,6 +184,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OGWz31QVVRvEfZczqKY--31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-29" target="e94hq9yqM84-VRwbTP0g-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="e94hq9yqM84-VRwbTP0g-29" target="YTj6ZiOPq32lD0ahbDQ3-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-29" value="Topmanagement muss Vorhaben unterstützen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
@@ -217,11 +231,38 @@
         <mxCell id="OGWz31QVVRvEfZczqKY--17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="e94hq9yqM84-VRwbTP0g-35" target="e94hq9yqM84-VRwbTP0g-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="e94hq9yqM84-VRwbTP0g-35" target="YTj6ZiOPq32lD0ahbDQ3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e94hq9yqM84-VRwbTP0g-35" value="Wissen teilen / Knowledge Base aufbauen" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="30" y="410" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ep7gEfiYQLX5Xc8ASM_O-1" value="fixe Kosten in variable&lt;br&gt;Kosten verändern" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ep7gEfiYQLX5Xc8ASM_O-1" value="fixe Kosten in variable&lt;br&gt;Kosten verändern" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-496.5" y="-523" width="123" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-1" value="Benutze agile Coaches&lt;br&gt;und andere Erfahrene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="219" y="545" width="137" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YTj6ZiOPq32lD0ahbDQ3-3" target="e94hq9yqM84-VRwbTP0g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-3" value="Product Owner sollte&lt;br&gt;weisungsfähi sein;&lt;br&gt;nicht bei Nachfragen&lt;br&gt;selber fragen müssen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="87" y="-145" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-5" value="Integration mit anderen&lt;br&gt;Systemen durch interne Experten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="117" y="-382" width="191" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-7" value="Releasezeiten vom Team&lt;br&gt;bestimmen lassen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-384" width="149" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YTj6ZiOPq32lD0ahbDQ3-9" target="e94hq9yqM84-VRwbTP0g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-9" value="Scrum of Scrums&lt;br&gt;als Apsrache zwischen den Teams" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-162" width="201" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YTj6ZiOPq32lD0ahbDQ3-13" value="Verwende Pilotprojekte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-607.5" y="166" width="135" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
